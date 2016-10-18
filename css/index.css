@@ -1,0 +1,126 @@
+body,
+html {
+    font-family: '微软雅黑';
+    font-size: 12px;
+}
+.theme-font-color {
+    color: #007fdc;
+}
+.main-section {
+    min-width: 320px;
+}
+.main-section h2,
+.main-section h3 {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+.main-section h2 {
+    font-size: 2.5rem;
+}
+.main-section h3 {
+    font-size: 20px;
+}
+.main-section p {
+    font-size: 13px;
+    line-height: 20px;
+}
+.thumbnail {
+    padding: 0; 
+
+    border: 0;
+}
+.common-blue-hr,
+.common-white-hr {
+    width: 70px;
+    margin-top: 10px;   
+}
+.common-blue-hr {
+	border-bottom: 2px solid #007fdc;
+}
+.common-white-hr {
+	border-bottom: 2px solid #fff;
+}
+.mag-main-about-us-box,
+.mag-main-team-box,
+.mag-main-pro-box,
+.mag-main-news-box,
+.mag-main-contact-us-box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.mag-main-about-us-box {
+    background: url('../img/bg_about_us.png') 0 0 repeat-y;
+}
+.mag-main-about-us-title-row {
+    padding-bottom: 50px;
+}
+.mag-main-team-title-row,
+.mag-main-pro-title-row,
+.mag-main-news-title-row {
+    padding-bottom: 30px;
+}
+.mag-main-about-us-box,
+.mag-main-contact-us-box {
+    color: #fff;
+}
+
+.mag-main-team-box .thumbnail a > img,
+.mag-main-team-box .thumbnail > img {
+    display: inline-block;
+
+    width: 48%;
+
+    vertical-align: top;
+}
+
+.mag-main-team-box .thumbnail .caption {
+    display: inline-block;
+
+    width: 50%;
+}
+
+.mag-main-pro-box {
+    background: url('../img/bg_product.png') 0 0 repeat-y;
+}
+
+.mag-news-item-list {
+    padding-left: 0;
+}
+.mag-news-item-list h5 {
+    font-weight: bold;
+}
+.mag-news-item-list span.mag-date {
+    display: block;
+
+    margin-bottom: 8px;
+}
+.mag-news-item-list li {
+    list-style: none;
+
+    border-bottom: 1px dashed #ccc;
+}
+.mag-more-btn {
+    margin-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+
+    border: 1px solid #00428c;
+}
+
+.mag-main-contact-us-box {
+    background: url('../img/bg_contact_us.png') 0 0 repeat-y;
+}
+.mag-main-contact-us-box .mag-left-content {
+	padding-right: 0;
+}
+.mag-main-contact-us-box .mag-right-content {
+	padding-left: 0;
+}
+.mag-main-contact-us-box .mag-right-content p{
+	margin-bottom: 0;
+	margin-top: 8px;
+}
+.mag-big-phone-num {
+	margin-top: 5px;
+	font-size: 30px;
+}
